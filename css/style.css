@@ -106,9 +106,14 @@ p{
 }
 
 .element{
-  padding:5%;
+  padding:20px;
   background-color: white;
   border:1px solid grey;
   border-radius:10px;
+  margin-bottom: 10%;
 
+}
+
+.r{
+  margin-right: 0;
 }
