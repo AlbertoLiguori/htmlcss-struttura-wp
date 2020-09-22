@@ -22,6 +22,16 @@ header{
   border:5px solid white;
 }
 
+footer{
+  width:75%;
+  height:15%;
+  margin-left: auto;
+  margin-right: auto;
+  color:grey;
+  text-align: center;
+  font-style: italic;
+}
+
 h1{
   padding-bottom: 5%;
 }
@@ -73,6 +83,10 @@ main{
   margin-left: auto;
   border:1px solid black;
   color:black;
+  content:"";
+  display:table;
+  clear:both;
+
 }
 
 p{
@@ -112,8 +126,4 @@ p{
   border-radius:10px;
   margin-bottom: 10%;
 
-}
-
-.r{
-  margin-right: 0;
 }
